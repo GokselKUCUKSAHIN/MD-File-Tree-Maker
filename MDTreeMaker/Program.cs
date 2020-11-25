@@ -19,7 +19,7 @@ namespace MDTreeMaker
     {
         static string pwd = String.Empty;
         //static string pwd = @"C:\ERU\4. Sınıf\Web_Programlama I\Vize Ödev\webProgramming-I\";
-        private static readonly string regEx = @"[A-Za-z0-9_ığüşöçİĞÜŞÖÇ]+\.[A-Za-z0-9]{1,4}";
+        private static readonly string regEx = @"[A-Za-z0-9_ığüşöçİĞÜŞÖÇ]+\.[A-Za-z0-9]{1,10}"; // 10 is maximum extension length 
         static void Main(string[] args)
         {
             pwd = Directory.GetCurrentDirectory(); // Get Current Working Directory as String.
