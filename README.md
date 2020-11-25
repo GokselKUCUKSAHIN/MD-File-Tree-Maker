@@ -5,6 +5,8 @@ Creating File Tree according repository directory for MarkDown formatted files.
 * File names must be unique
 * One file's name cannot be same as another file's ending part. e.g. **somehow.ext and how.ext**.
 
+These issues will fix anytime soon. 👍
+
 ### Example (Press RAW to Actual output)
 /root\
 ╚═══Folder\
